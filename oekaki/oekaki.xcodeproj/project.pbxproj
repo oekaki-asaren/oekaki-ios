@@ -21,6 +21,7 @@
 		A8D9DF27185FFB9500F7D369 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D9DF09185FFB9500F7D369 /* UIKit.framework */; };
 		A8D9DF2F185FFB9500F7D369 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8D9DF2D185FFB9500F7D369 /* InfoPlist.strings */; };
 		A8D9DF31185FFB9500F7D369 /* oekakiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D9DF30185FFB9500F7D369 /* oekakiTests.m */; };
+		A8D9DF3C185FFF7200F7D369 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D9DF3B185FFF7200F7D369 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A8D9DF2C185FFB9500F7D369 /* oekakiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "oekakiTests-Info.plist"; sourceTree = "<group>"; };
 		A8D9DF2E185FFB9500F7D369 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A8D9DF30185FFB9500F7D369 /* oekakiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oekakiTests.m; sourceTree = "<group>"; };
+		A8D9DF3A185FFF7200F7D369 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A8D9DF3B185FFF7200F7D369 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		A8D9DF0B185FFB9500F7D369 /* oekaki */ = {
 			isa = PBXGroup;
 			children = (
+				A8D9DF3A185FFF7200F7D369 /* MainViewController.h */,
+				A8D9DF3B185FFF7200F7D369 /* MainViewController.m */,
 				A8D9DF14185FFB9500F7D369 /* AppDelegate.h */,
 				A8D9DF15185FFB9500F7D369 /* AppDelegate.m */,
 				A8D9DF17185FFB9500F7D369 /* Main.storyboard */,
@@ -252,6 +257,7 @@
 				A8D9DF1C185FFB9500F7D369 /* ViewController.m in Sources */,
 				A8D9DF16185FFB9500F7D369 /* AppDelegate.m in Sources */,
 				A8D9DF12185FFB9500F7D369 /* main.m in Sources */,
+				A8D9DF3C185FFF7200F7D369 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
