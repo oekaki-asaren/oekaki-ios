@@ -22,6 +22,7 @@
 		A8D9DF2F185FFB9500F7D369 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8D9DF2D185FFB9500F7D369 /* InfoPlist.strings */; };
 		A8D9DF31185FFB9500F7D369 /* oekakiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D9DF30185FFB9500F7D369 /* oekakiTests.m */; };
 		A8D9DF3C185FFF7200F7D369 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D9DF3B185FFF7200F7D369 /* MainViewController.m */; };
+		E2711CC3186906950075E6A5 /* LinearInterpView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2711CC2186906950075E6A5 /* LinearInterpView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		A8D9DF30185FFB9500F7D369 /* oekakiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oekakiTests.m; sourceTree = "<group>"; };
 		A8D9DF3A185FFF7200F7D369 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		A8D9DF3B185FFF7200F7D369 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		E2711CC1186906950075E6A5 /* LinearInterpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinearInterpView.h; path = ../LinearInterpView.h; sourceTree = "<group>"; };
+		E2711CC2186906950075E6A5 /* LinearInterpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LinearInterpView.m; path = ../LinearInterpView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 		A8D9DF0B185FFB9500F7D369 /* oekaki */ = {
 			isa = PBXGroup;
 			children = (
+				E2711CC1186906950075E6A5 /* LinearInterpView.h */,
+				E2711CC2186906950075E6A5 /* LinearInterpView.m */,
 				A8D9DF3A185FFF7200F7D369 /* MainViewController.h */,
 				A8D9DF3B185FFF7200F7D369 /* MainViewController.m */,
 				A8D9DF14185FFB9500F7D369 /* AppDelegate.h */,
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2711CC3186906950075E6A5 /* LinearInterpView.m in Sources */,
 				A8D9DF1C185FFB9500F7D369 /* ViewController.m in Sources */,
 				A8D9DF16185FFB9500F7D369 /* AppDelegate.m in Sources */,
 				A8D9DF12185FFB9500F7D369 /* main.m in Sources */,
@@ -468,6 +474,7 @@
 				A8D9DF36185FFB9500F7D369 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8D9DF37185FFB9500F7D369 /* Build configuration list for PBXNativeTarget "oekakiTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +483,7 @@
 				A8D9DF39185FFB9500F7D369 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
